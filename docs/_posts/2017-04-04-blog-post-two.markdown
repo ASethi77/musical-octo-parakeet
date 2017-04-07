@@ -12,7 +12,11 @@ comments: true
 
 Here's some progress we've made over the last couple days...
 
-Since we are team ????????, we don't really know what we're doing. We've spent the last few days getting more up to speed on classical NLP strategies, while also taking some time to learn a little about a neat tensorflow wrapper called Keras (https://github.com/MachinesWhoLearn/lectures/blob/master/2016-2017.Meetings/spring/01.keras_tutorial_duplicate_questions/03.train_model.ipynb). Our friend Pooja has been really great in helping us go through previous NLP class slides, and we've been doing a lot of other independent work to get up to speed like going to the NLP PMP course, watching Standford lectures, etc.
+Since we are team ????????, we don't really know what we're doing yet. So, we've spent the last few days getting more up to speed on classical NLP strategies, while also taking some time to learn a little about a neat tensorflow wrapper called Keras (<a href="https://github.com/MachinesWhoLearn/lectures/blob/master/2016-2017.Meetings/spring/01.keras_tutorial_duplicate_questions/03.train_model.ipynb">MachinesWhoLearn_KerasTutorial</a>). 
+
+We've been looking into ways to do topic extraction and word simplification, which seem like overarching tasks we'll need to tackle regardless of what project we choose. Aakash has been doing a lot of good digging into finding potential solutions to word simplification using embeddings to find clustering of similar words (this motivated us to check out the Keras tutorial). We've also been looking more specifically into how we can do excerpt summarization if we decide to make a congress-bill-simplifier: There are a bunch of algorithms similar to <a href="http://smmry.com/">SMMRY</a> and <a href="https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf">Text Rank</a> that we can use to solve that problem (yay!). There are also many <a href="https://github.com/summanlp/textrank">opensource implementations</a> we can use and play around with.
+
+Our friend Pooja has been really great in helping us go through previous NLP class slides, and we've been doing a lot of other independent work to get up to speed like going to the NLP PMP course, watching Standford lectures, etc. 
 
 
 {% if page.comments %}
