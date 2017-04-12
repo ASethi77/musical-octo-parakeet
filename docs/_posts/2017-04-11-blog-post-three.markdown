@@ -23,7 +23,7 @@ As an example of this, feel free to read (or not) the text of S.302 from the fir
 
 This bill can be summarized to the following:
 
-    Foundation for the National Institutes of Health Improvement Act - Amends the Public Health Service Act to revise provisions regarding the National Foundation for Biomedical Research. Allows the National Institutes of Health (NIH) to accept transfers of funds from the Foundation. Requires the Director of NIH to transfer not less than $500,000 and not more than $1,125,000 to the Foundation from amounts appropriated to NIH for each fiscal year. Directs the Foundation to include in its annual report an accounting of the use of such amounts transferred from NIH and to make the report available to the appropriate congressional committees.
+> Foundation for the National Institutes of Health Improvement Act - Amends the Public Health Service Act to revise provisions regarding the National Foundation for Biomedical Research. Allows the National Institutes of Health (NIH) to accept transfers of funds from the Foundation. Requires the Director of NIH to transfer not less than $500,000 and not more than $1,125,000 to the Foundation from amounts appropriated to NIH for each fiscal year. Directs the Foundation to include in its annual report an accounting of the use of such amounts transferred from NIH and to make the report available to the appropriate congressional committees.
 
 This is concise and enumerates key components of the bill in language that is easy enough for the layperson to understand.
 
