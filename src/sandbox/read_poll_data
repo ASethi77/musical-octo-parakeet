@@ -1,0 +1,22 @@
+import pandas
+import numpy as np
+import json
+import matplotlib
+import matplotlib.pyplot as plt
+
+myfile = "/home/aakash/Documents/Code/musical-octo-parakeet/datasets/RoperCenterPolls/president_approval_ratings.json"
+
+with open(myfile) as approval_data_file:
+    approval_data = approval_data_file.read()
+    
+my_data = pandas.read_json(approval_data)
+
+for i in range(len(my_data)):
+    print(my_data.iloc[i])
+    print()
+
+trump_ratings = my_data.terms[0][0]['ratings']
+for poll in trump_ratings:
+    print("Approve: {} Disapprove: {} No opinion: {}".format(poll["approve"], poll["disapprove"], poll["noOpinion"]))
+
+
