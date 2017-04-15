@@ -16,4 +16,4 @@ class WebhoseArticleParser(ArticleParser):
 			content_full = ""
 			for line in content:
 				content_full += line
-			yield (article_filename, textacy.Doc(content_full, metadata=metadata, lang="en"))
+			yield textacy.Doc(content_full, metadata=metadata, lang="en")
